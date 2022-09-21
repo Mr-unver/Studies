@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* 
+h1 {
+    color: navy;
+}
+
+em {
+    color: royalblue;
+}
+
+.em_table {
+    color: red;
+    font-size: 10px;
+}
+
+li {
+    font-weight: bolder;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+a:visited {
+    color: rgb(72, 255, 0);
+}
+
+.element {
+	font-size: 18px;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+}
+
+.flag {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-color: black;
+    border: 1px solid black;
+    align-content: center;
+}
+
+.circle {
+    height: 120px;
+    width: 120px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 85px;
+    margin-top: 40px;
+}
+
+.list-group {
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    font-family: sans-serif;
+    max-width: 350px;
+    min-width: 20px;
+    border-radius: 3px;
+    list-style: none;
+}
+
+.list-group-item:first-child {
+    border-top: solid 0.5px inherit;
+    border-radius: 3px 3px 0 0;
+    border-bottom: solid 0.5px inherit;
+}
+
+.list-group-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: solid 0.5px rgba(0,0,0,.125);
+}
+
+.list-group-item:last-child {
+    border-bottom: solid 0.5px inherit;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.list-group-item:hover {
+    background-color: #0d6efd;
+}
+
+a:hover {
+    color: white;
+}
+
+a {
+    color: navy;
+}
+*/
+
+/* .card {
+    width: 80%;
+
+} */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    padding: 0;
+}
+
+.card {
+    position: relative;
+    border: solid 1px rgb(202, 202, 202);
+    width: 350px;
+    height: 500px;
+}
+
+.card-img-top {
+    margin: 0;
+    padding: 0;
+    width: 350px;
+}
+
+.card-title {
+    padding: 10px 10px 0px 00px;
+    font-size: large;
+    font-style: normal;
+}
+
+.card-text {
+    padding: 10px 10px 0px 00px;
+    font-size: normal;
+}
+
+.btn {
+    position: absolute;
+    background: #e45d80;
+    padding: 15px 20px;
+    color: azure;
+    position: block;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+.btn:hover {
+    background: #ff6991;
+}
+
